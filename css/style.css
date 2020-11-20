@@ -1,6 +1,6 @@
 /* Parent Styling */
 .flexParent {
-  background-color: blue;
+  background-color: #FFE4C4;
   padding: 20px;
   gap: 20px;
   display: flex;
@@ -29,6 +29,8 @@ header .nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-style: outset;
+  border-color: black;
 }
 
 
@@ -38,6 +40,8 @@ header .nav {
   justify-content: center;
   align-items: center;
   flex: 1;
+  border-style: outset;
+  border-color: black;
   
   background-color: #FFE4C4;
   position: relative;
@@ -61,6 +65,8 @@ header .nav {
   justify-content: center;
   align-content: center;
   height: auto;
+  border-style: outset;
+  border-color: black;
 }
 
 .para {
@@ -131,9 +137,14 @@ ul {
 ul li {
   margin-left: 20px;
   margin: 5px;
+  padding: 8px;
 }
 ul a {
-  color: lightblue;
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #6833e54d;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 .main-footer {
@@ -152,14 +163,20 @@ ul a {
 
 
   ul a {
-    color: red;
+
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     
   }
 
 
   .flexParent {
 
-    background-color: purple;
+    background-color: #FFE4C4;
+
     flex-direction: row-reverse;
 
   }
@@ -172,13 +189,21 @@ ul a {
 
 
   ul a {
-    color: darkblue;
+   
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
   }
+
 
   .flexParent{
 		
     flex-direction: column;
-    background-color: chartreuse;
+    background-color: #FFE4C4;
+
 	}
 	
 	header .nav {

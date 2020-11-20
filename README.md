@@ -8,11 +8,10 @@ CSS Features -
 	boxes along with the nav and header below. The header and navbar to be its own box in the mobile view. The main content to 
 	be next to each other in its own box below.
 
-    Check Viewpoints of Default, 1024px, and 768px Each has a different color.
 
-    On viewpoint 1024px I used reverse-row to swap the flexboxes
+    On viewpoint 768px to 1024px I used reverse-row to swap the flexboxes
 	
-	2. I did an animation of the logo so the background color changes to a coupple of colors and stops on a cream color.
+	2. I did an animation of the logo so the background color changes to a couple of colors and stops on a cream color.
 	
 	Java Features - 
 	
