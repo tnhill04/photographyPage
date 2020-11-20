@@ -1,0 +1,190 @@
+/* Parent Styling */
+.flexParent {
+  background-color: blue;
+  padding: 20px;
+  gap: 20px;
+  display: flex;
+}
+
+/* Child Styling */
+.flexChild {
+  color: balck;
+  padding: 20px;
+  background: #FFE4C4;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+
+}
+
+/* Header Styling */
+header {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+header .nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  
+  background-color: #FFE4C4;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 3;
+  
+  
+}
+
+@keyframes example {
+  0%   {background-color:red;}
+  25%  {background-color:yellow;}
+  50%  {background-color:blue;}
+  75%  {background-color:green;}
+  100% {background-color:red;}
+}
+
+.anotherDiv {
+  flex: 1;
+  justify-content: center;
+  align-content: center;
+  height: auto;
+}
+
+.para {
+	  max-width: 100%;
+		height: auto;
+		overflow: hidden;
+}
+
+.para img {
+	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.para h1 {
+	text-align: center;
+}
+
+
+
+
+
+
+
+/* Global Styling */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image: url("../img/image1.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+	
+	.hero-image {
+		
+		height: 70vh;
+		
+	}
+
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.flex--wrap {
+  flex-wrap: wrap;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+ul li {
+  margin-left: 20px;
+  margin: 5px;
+}
+ul a {
+  color: lightblue;
+}
+
+.main-footer {
+	background: #FFE4C4;
+	padding: 2em 0;
+	text-align: center;
+}
+
+
+
+/* Media Query */
+
+
+
+@media screen and (max-width: 1024px){
+
+
+  ul a {
+    color: red;
+    
+  }
+
+
+  .flexParent {
+
+    background-color: purple;
+    flex-direction: row-reverse;
+
+  }
+	
+
+	
+}
+
+@media screen and (max-width: 768px){
+
+
+  ul a {
+    color: darkblue;
+  }
+
+  .flexParent{
+		
+    flex-direction: column;
+    background-color: chartreuse;
+	}
+	
+	header .nav {
+		flex-direction: column;
+	}
+	
+
+	
+}
